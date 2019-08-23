@@ -1,0 +1,70 @@
+.Screen {
+    border: 1px solid black;
+    height :20em;
+    padding-right: .5em  ;
+    margin: 5em auto;
+    width: 30em;
+}
+
+
+.InputScreen {
+    height :2em;
+    padding: 5em auto ;
+
+    
+    margin-top: 2em ;
+    margin-left: 1em ;
+    width: 31em;
+}
+.ButtonHolder{   
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto; 
+}
+.button{
+    width: 4em;
+    height: 2.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+
+    background: #dfe1e5;
+    color: #202124;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    .Screen {
+        border: 1px solid black;
+        height :20em;
+        padding: 5em auto ;
+        margin: 5em auto;
+        width: 30em;
+    }
+    
+    
+    .InputScreen {
+        height :2em;
+        padding: 5em auto ;
+    
+        
+        margin-top: 2em ;
+        margin-left: 1em ;
+        width: 31em;
+    }
+    .ButtonHolder{   
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto; 
+    }
+    .buttonNo{
+        width: 4em;
+        height: 2.5em;
+        margin-top: 1em;
+        margin-left: 1em;
+    
+        background: whitesmoke;
+        border-color: #e8eaeb;
+        color: #202124;
+        border: 1px solid #f1f3f4;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
